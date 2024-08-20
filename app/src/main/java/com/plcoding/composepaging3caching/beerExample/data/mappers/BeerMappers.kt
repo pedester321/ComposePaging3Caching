@@ -1,8 +1,8 @@
-package com.plcoding.composepaging3caching.data.mappers
+package com.plcoding.composepaging3caching.beerExample.data.mappers
 
-import com.plcoding.composepaging3caching.data.local.BeerEntity
-import com.plcoding.composepaging3caching.data.remote.BeerDto
-import com.plcoding.composepaging3caching.domain.Beer
+import com.plcoding.composepaging3caching.beerExample.data.local.BeerEntity
+import com.plcoding.composepaging3caching.beerExample.data.remote.BeerDto
+import com.plcoding.composepaging3caching.beerExample.domain.Beer
 
 fun BeerDto.toBeerEntity(): BeerEntity {
     return BeerEntity(

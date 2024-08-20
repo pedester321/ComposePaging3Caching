@@ -1,12 +1,12 @@
-package com.plcoding.composepaging3caching.presentation
+package com.plcoding.composepaging3caching.beerExample.presentation
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.paging.Pager
 import androidx.paging.cachedIn
 import androidx.paging.map
-import com.plcoding.composepaging3caching.data.local.BeerEntity
-import com.plcoding.composepaging3caching.data.mappers.toBeer
+import com.plcoding.composepaging3caching.beerExample.data.local.BeerEntity
+import com.plcoding.composepaging3caching.beerExample.data.mappers.toBeer
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.map
 import javax.inject.Inject

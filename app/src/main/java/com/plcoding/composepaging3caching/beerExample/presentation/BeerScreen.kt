@@ -1,4 +1,4 @@
-package com.plcoding.composepaging3caching.presentation
+package com.plcoding.composepaging3caching.beerExample.presentation
 
 import android.widget.Toast
 import androidx.compose.foundation.layout.Arrangement
@@ -16,7 +16,7 @@ import androidx.compose.ui.unit.dp
 import androidx.paging.LoadState
 import androidx.paging.compose.LazyPagingItems
 import androidx.paging.compose.items
-import com.plcoding.composepaging3caching.domain.Beer
+import com.plcoding.composepaging3caching.beerExample.domain.Beer
 
 @Composable
 fun BeerScreen(

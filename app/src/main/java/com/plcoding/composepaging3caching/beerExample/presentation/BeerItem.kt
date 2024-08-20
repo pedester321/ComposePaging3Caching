@@ -1,4 +1,4 @@
-package com.plcoding.composepaging3caching.presentation
+package com.plcoding.composepaging3caching.beerExample.presentation
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.Card
@@ -13,7 +13,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
-import com.plcoding.composepaging3caching.domain.Beer
+import com.plcoding.composepaging3caching.beerExample.domain.Beer
 import com.plcoding.composepaging3caching.ui.theme.ComposePaging3CachingTheme
 
 @Composable

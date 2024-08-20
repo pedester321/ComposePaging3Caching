@@ -1,4 +1,4 @@
-package com.plcoding.composepaging3caching.data.local
+package com.plcoding.composepaging3caching.beerExample.data.local
 
 import androidx.paging.PagingSource
 import androidx.room.Dao

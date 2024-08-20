@@ -1,15 +1,15 @@
-package com.plcoding.composepaging3caching.di
+package com.plcoding.composepaging3caching.beerExample.di
 
 import android.content.Context
 import androidx.paging.ExperimentalPagingApi
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.room.Room
-import com.plcoding.composepaging3caching.data.local.BeerDao
-import com.plcoding.composepaging3caching.data.local.BeerDatabase
-import com.plcoding.composepaging3caching.data.local.BeerEntity
-import com.plcoding.composepaging3caching.data.remote.BeerApi
-import com.plcoding.composepaging3caching.data.remote.BeerRemoteMediator
+import com.plcoding.composepaging3caching.beerExample.data.local.BeerDao
+import com.plcoding.composepaging3caching.beerExample.data.local.BeerDatabase
+import com.plcoding.composepaging3caching.beerExample.data.local.BeerEntity
+import com.plcoding.composepaging3caching.beerExample.data.remote.BeerApi
+import com.plcoding.composepaging3caching.beerExample.data.remote.BeerRemoteMediator
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

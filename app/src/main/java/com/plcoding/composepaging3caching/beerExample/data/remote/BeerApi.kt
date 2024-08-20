@@ -1,4 +1,4 @@
-package com.plcoding.composepaging3caching.data.remote
+package com.plcoding.composepaging3caching.beerExample.data.remote
 
 import retrofit2.http.GET
 import retrofit2.http.Query

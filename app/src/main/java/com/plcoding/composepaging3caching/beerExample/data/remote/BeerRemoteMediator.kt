@@ -1,13 +1,13 @@
-package com.plcoding.composepaging3caching.data.remote
+package com.plcoding.composepaging3caching.beerExample.data.remote
 
 import androidx.paging.ExperimentalPagingApi
 import androidx.paging.LoadType
 import androidx.paging.PagingState
 import androidx.paging.RemoteMediator
 import androidx.room.withTransaction
-import com.plcoding.composepaging3caching.data.local.BeerDatabase
-import com.plcoding.composepaging3caching.data.local.BeerEntity
-import com.plcoding.composepaging3caching.data.mappers.toBeerEntity
+import com.plcoding.composepaging3caching.beerExample.data.local.BeerDatabase
+import com.plcoding.composepaging3caching.beerExample.data.local.BeerEntity
+import com.plcoding.composepaging3caching.beerExample.data.mappers.toBeerEntity
 import kotlinx.coroutines.delay
 import retrofit2.HttpException
 import java.io.IOException

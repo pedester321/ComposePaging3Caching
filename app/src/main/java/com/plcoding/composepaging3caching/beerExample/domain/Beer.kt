@@ -1,4 +1,4 @@
-package com.plcoding.composepaging3caching.domain
+package com.plcoding.composepaging3caching.beerExample.domain
 
 data class Beer(
     val id: Int,

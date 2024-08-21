@@ -1,5 +1,6 @@
-package com.plcoding.composepaging3caching.login.di
+package com.plcoding.composepaging3caching.di
 
+import com.plcoding.composepaging3caching.login.data.local.UserSingleton
 import com.plcoding.composepaging3caching.login.data.remote.LoginApi
 import dagger.Module
 import dagger.Provides
@@ -21,5 +22,11 @@ object AppModule {
             .addConverterFactory(MoshiConverterFactory.create())
             .build()
             .create()
+    }
+
+    @Provides
+    @Singleton
+    fun provideUserSingleton(): UserSingleton {
+        return UserSingleton()
     }
 }
